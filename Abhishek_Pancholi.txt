@@ -1,0 +1,112 @@
+Assignment-1
+
+Ans01- operators are = * , / , - , + and
+       values are = 'hello' , -88.8 , 5
+
+Ans02- * variable =spam
+       * string ='spam'
+       
+ans03- 1.Tuples
+
+       2.Dictionary
+
+       3.Strings
+
+       4.Sets
+       
+Ans04- expresssion is a combination of variables,values,operations and statement that returns a result value. It can appear on right side          of a parameter to method call.
+
+Ans05- A statement is a complete line of code that performs some actions,while an expression is any section of the code evaluate to value .        Every experssion can be used as a statement but most statement con't be used as expression.
+
+Ans06- 21
+
+Ans07-'spamspamspam'
+      'spamspamspam'
+      
+Ans08- egg is valid variable name while 100 is invalid because variables name can't start with the number.
+
+Ans09- int(),float(),str().
+
+Ans10- because cannot concatenate 'str' and 'int' objects.
+       'I have eaten'+  str(99)  + 'burritos'
+       
+ 
+ 
+ 
+ 
+ 
+Assighnment-2
+ 
+Ans01-an empty list with no element.
+ 
+Ans02-spam=[2,4,6,8,10]
+       spam.insert(3,'hello')
+       print(spam)
+       
+Ans03- spam = ['a','b','c','d']
+        s = spam[int(int('3'*2)//11)]
+        print(s)
+        
+        output - d
+        
+Ans04-spam = ['a','b','c','d']
+      spam[-1]
+      
+      output - 'd'
+Ans05-spam = ['a','b','c','d']
+      spam[:2]
+      
+      output - ['a', 'b']
+      for the following three question, let's say bacon contains the list[3.14,'cat',11,'cat',True].
+
+Ans06-bacon=[3.14,'cat',11,'cat',True]
+      bacon.index('cat')
+        
+      output - 1
+      
+Ans07-bacon=[3.14,'cat',11,'cat',True]
+      bacon.append(99)
+      print(bacon)
+
+      output - [3.14, 'cat', 11, 'cat', True, 99]
+      
+Ans08-bacon=[3.14,'cat',11,'cat',True]
+      bacon.remove('cat')
+      print(bacon)
+    
+      output - [3.14, 11, 'cat', True]
+      
+Ans09- (+ , *)
+
+Ans10- append() - add value at the end ,while
+       insert() - add the value at everywhere we want.
+       
+Ans11- * pop()
+       * remove()
+       
+Ans12- tuples
+
+Ans13- lists are 'mutable' while tuples are 'immutable'.
+
+Ans14- (42,)
+
+Ans15- list()
+
+       s=(1,2,)
+       print(list(s))
+       print(type(s))
+
+       output - [1, 2]
+                <type 'tuple'>
+
+       s=[1,2]
+       print(tuple(s))
+       print(type(s))
+       
+       output - (1, 2)
+                <type 'list'>
+                
+Ans16-
+
+Ans17-' copy.deepcopy()' creates new object n does real copies of original object to new one ,while 'copy.copy()' creates reference object       of original object.
+
